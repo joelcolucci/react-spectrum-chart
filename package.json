@@ -1,0 +1,35 @@
+{
+  "name": "react-spectrum-chart",
+  "version": "0.1.0",
+  "description": "A spectrum chart React component",
+  "keywords": [
+    "react",
+    "spectrum",
+    "chart",
+    "graph",
+    "visualization",
+    "animation"
+  ],
+  "homepage": "https://github.com/joelcolucci/react-spectrum-chart",
+  "bugs": {
+    "url": "https://github.com/joelcolucci/react-spectrum-chart/issues"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist --copy-files",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Joel Colucci",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.4.2"
+  }
+}

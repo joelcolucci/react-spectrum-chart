@@ -1,0 +1,22 @@
+.chart {
+  align-items: center;
+  background: #eaeaea;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 0 10px;
+  position: relative;
+  width: 100%;
+}
+
+.chart__indicator {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  height: 100%;
+  width: 10px;
+  background: #999;
+  transition: 1s;
+}
